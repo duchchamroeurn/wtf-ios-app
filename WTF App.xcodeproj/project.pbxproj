@@ -69,6 +69,14 @@
 		AB37F07B28FD1B1A009A31B4 /* EmptyDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB37F07A28FD1B1A009A31B4 /* EmptyDataViewController.swift */; };
 		AB37F07E28FD1B4F009A31B4 /* EmptyDataViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB37F07D28FD1B4F009A31B4 /* EmptyDataViewController.storyboard */; };
 		AB37F0A328FD4E0F009A31B4 /* AppAlertDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB37F0A228FD4E0F009A31B4 /* AppAlertDialog.swift */; };
+		AB4026A028FD9A95001577EA /* Login.png in Resources */ = {isa = PBXBuildFile; fileRef = AB40269828FD9A95001577EA /* Login.png */; };
+		AB4026A128FD9A95001577EA /* Cart.png in Resources */ = {isa = PBXBuildFile; fileRef = AB40269928FD9A95001577EA /* Cart.png */; };
+		AB4026A228FD9A95001577EA /* MenuDetail.png in Resources */ = {isa = PBXBuildFile; fileRef = AB40269A28FD9A95001577EA /* MenuDetail.png */; };
+		AB4026A328FD9A95001577EA /* OrderDetail.png in Resources */ = {isa = PBXBuildFile; fileRef = AB40269B28FD9A95001577EA /* OrderDetail.png */; };
+		AB4026A428FD9A95001577EA /* Register.png in Resources */ = {isa = PBXBuildFile; fileRef = AB40269C28FD9A95001577EA /* Register.png */; };
+		AB4026A528FD9A95001577EA /* Home.png in Resources */ = {isa = PBXBuildFile; fileRef = AB40269D28FD9A95001577EA /* Home.png */; };
+		AB4026A628FD9A95001577EA /* ListOrder.png in Resources */ = {isa = PBXBuildFile; fileRef = AB40269E28FD9A95001577EA /* ListOrder.png */; };
+		AB4026A728FD9A95001577EA /* Profile.png in Resources */ = {isa = PBXBuildFile; fileRef = AB40269F28FD9A95001577EA /* Profile.png */; };
 		AB74099928F6C0F300C2643C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB74099828F6C0F300C2643C /* AppDelegate.swift */; };
 		AB74099B28F6C0F300C2643C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB74099A28F6C0F300C2643C /* SceneDelegate.swift */; };
 		AB74099D28F6C0F300C2643C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB74099C28F6C0F300C2643C /* ViewController.swift */; };
@@ -160,6 +168,14 @@
 		AB37F07A28FD1B1A009A31B4 /* EmptyDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyDataViewController.swift; sourceTree = "<group>"; };
 		AB37F07D28FD1B4F009A31B4 /* EmptyDataViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EmptyDataViewController.storyboard; sourceTree = "<group>"; };
 		AB37F0A228FD4E0F009A31B4 /* AppAlertDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAlertDialog.swift; sourceTree = "<group>"; };
+		AB40269828FD9A95001577EA /* Login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Login.png; sourceTree = "<group>"; };
+		AB40269928FD9A95001577EA /* Cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cart.png; sourceTree = "<group>"; };
+		AB40269A28FD9A95001577EA /* MenuDetail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MenuDetail.png; sourceTree = "<group>"; };
+		AB40269B28FD9A95001577EA /* OrderDetail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OrderDetail.png; sourceTree = "<group>"; };
+		AB40269C28FD9A95001577EA /* Register.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Register.png; sourceTree = "<group>"; };
+		AB40269D28FD9A95001577EA /* Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home.png; sourceTree = "<group>"; };
+		AB40269E28FD9A95001577EA /* ListOrder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ListOrder.png; sourceTree = "<group>"; };
+		AB40269F28FD9A95001577EA /* Profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Profile.png; sourceTree = "<group>"; };
 		AB74099528F6C0F300C2643C /* WTF App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WTF App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB74099828F6C0F300C2643C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB74099A28F6C0F300C2643C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -273,6 +289,7 @@
 		AB2F5E8928F7FCED008A7730 /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				AB40269728FD9A95001577EA /* Screenshot */,
 				AB7409C228F704BB00C2643C /* SampleMenu.jpg */,
 				AB7409D328F71D9900C2643C /* SampleProfile.jpg */,
 			);
@@ -499,6 +516,21 @@
 			path = Storyboard;
 			sourceTree = "<group>";
 		};
+		AB40269728FD9A95001577EA /* Screenshot */ = {
+			isa = PBXGroup;
+			children = (
+				AB40269828FD9A95001577EA /* Login.png */,
+				AB40269928FD9A95001577EA /* Cart.png */,
+				AB40269A28FD9A95001577EA /* MenuDetail.png */,
+				AB40269B28FD9A95001577EA /* OrderDetail.png */,
+				AB40269C28FD9A95001577EA /* Register.png */,
+				AB40269D28FD9A95001577EA /* Home.png */,
+				AB40269E28FD9A95001577EA /* ListOrder.png */,
+				AB40269F28FD9A95001577EA /* Profile.png */,
+			);
+			path = Screenshot;
+			sourceTree = "<group>";
+		};
 		AB74098C28F6C0F300C2643C = {
 			isa = PBXGroup;
 			children = (
@@ -652,26 +684,34 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB4026A028FD9A95001577EA /* Login.png in Resources */,
 				AB2F5EBC28F82577008A7730 /* LoadingViewController.storyboard in Resources */,
 				AB2F5EC928F84C3F008A7730 /* MenuDetailViewController.storyboard in Resources */,
 				AB37F06228FA0C7B009A31B4 /* OrderHistoryDetailViewController.storyboard in Resources */,
 				AB7409C828F70AE200C2643C /* UserProfileViewController.storyboard in Resources */,
+				AB4026A228FD9A95001577EA /* MenuDetail.png in Resources */,
 				AB7409CD28F70B3000C2643C /* OrderHistoryViewController.storyboard in Resources */,
 				AB7409BB28F6EF9200C2643C /* HomeContentViewController.storyboard in Resources */,
 				AB7409BF28F6F0F500C2643C /* MenuTableViewCell.xib in Resources */,
 				AB7409D228F7117200C2643C /* OrderHistoryTableViewCell.xib in Resources */,
 				AB2F5E7528F7C438008A7730 /* LoginViewController.storyboard in Resources */,
 				AB2F5E8728F7EBA1008A7730 /* CartItemTableViewCell.xib in Resources */,
+				AB4026A428FD9A95001577EA /* Register.png in Resources */,
 				AB7409B228F6C9A000C2643C /* HomeViewController.storyboard in Resources */,
 				AB7409B728F6D05200C2643C /* CategoryCollectionViewCell.xib in Resources */,
 				AB2F5ECB28F87364008A7730 /* BarItemCartView.xib in Resources */,
 				AB37F07E28FD1B4F009A31B4 /* EmptyDataViewController.storyboard in Resources */,
 				AB7409A528F6C0F600C2643C /* LaunchScreen.storyboard in Resources */,
 				AB2F5E8228F7E59F008A7730 /* CartViewController.storyboard in Resources */,
+				AB4026A728FD9A95001577EA /* Profile.png in Resources */,
 				AB7409A228F6C0F600C2643C /* Assets.xcassets in Resources */,
+				AB4026A528FD9A95001577EA /* Home.png in Resources */,
+				AB4026A628FD9A95001577EA /* ListOrder.png in Resources */,
+				AB4026A328FD9A95001577EA /* OrderDetail.png in Resources */,
 				AB2F5E7A28F7CE51008A7730 /* RegisterViewController.storyboard in Resources */,
 				AB7409D428F71D9900C2643C /* SampleProfile.jpg in Resources */,
 				AB37F06B28FAA7BA009A31B4 /* DatePickerViewController.storyboard in Resources */,
+				AB4026A128FD9A95001577EA /* Cart.png in Resources */,
 				AB7409C328F704BB00C2643C /* SampleMenu.jpg in Resources */,
 				AB7409A028F6C0F300C2643C /* Main.storyboard in Resources */,
 			);
