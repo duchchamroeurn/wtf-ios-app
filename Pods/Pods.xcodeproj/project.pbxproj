@@ -279,7 +279,7 @@
 		9B1A1E114338BFC9228918D707D3AE53 /* SDImageIOAnimatedCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageIOAnimatedCoder.h; path = SDWebImage/Core/SDImageIOAnimatedCoder.h; sourceTree = "<group>"; };
 		9B6B2CBD1CD3CDB934677F217332B46A /* ReachabilitySwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-umbrella.h"; sourceTree = "<group>"; };
 		9B7DB7E041B03C6BF85167D10DA5B15F /* UIImage+GIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+GIF.h"; path = "SDWebImage/Core/UIImage+GIF.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A194B1D74C94F308BA95CD224848B8D2 /* SDWebImageOptionsProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageOptionsProcessor.h; path = SDWebImage/Core/SDWebImageOptionsProcessor.h; sourceTree = "<group>"; };
 		A5E200386DC6DBCCE24DC0DF3DAAA6C9 /* SDImageCacheDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCacheDefine.h; path = SDWebImage/Core/SDImageCacheDefine.h; sourceTree = "<group>"; };
 		A7F3C42270C6270A6D2A12BF53BEB877 /* SDImageFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageFrame.m; path = SDWebImage/Core/SDImageFrame.m; sourceTree = "<group>"; };
@@ -354,7 +354,7 @@
 		F61D0A3BE144FB3CD366D8584A1E0C6E /* SDImageIOAnimatedCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageIOAnimatedCoder.m; path = SDWebImage/Core/SDImageIOAnimatedCoder.m; sourceTree = "<group>"; };
 		F633B3670BBC1659672B6E3A09FF36F0 /* UIImage+Transform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Transform.h"; path = "SDWebImage/Core/UIImage+Transform.h"; sourceTree = "<group>"; };
 		F9106D83C41336E688AC8D8D2016EE9E /* SDWebImageDownloaderRequestModifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderRequestModifier.h; path = SDWebImage/Core/SDWebImageDownloaderRequestModifier.h; sourceTree = "<group>"; };
-		FED23F765C57DC8024941C1A17ED5AD1 /* Pods-WTF App */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WTF App"; path = Pods_WTF_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FED23F765C57DC8024941C1A17ED5AD1 /* Pods_WTF_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WTF_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FED358DD2490FED6A17BFFFBFA5FF49A /* SDWebImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -450,14 +450,13 @@
 				1C84E812C26744B57C8EB8DD7EDB114E /* Reachability.swift */,
 				3399C799409E302E9E9BBBF55B72C974 /* Support Files */,
 			);
-			name = ReachabilitySwift;
 			path = ReachabilitySwift;
 			sourceTree = "<group>";
 		};
 		9C19F44BC325FFF49243D6F50AD9D6A8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FED23F765C57DC8024941C1A17ED5AD1 /* Pods-WTF App */,
+				FED23F765C57DC8024941C1A17ED5AD1 /* Pods_WTF_App.framework */,
 				21B03CA622E690725A6626C088E1D09F /* ReachabilitySwift */,
 				B0B214D775196BA7CA8E17E53048A493 /* SDWebImage */,
 			);
@@ -658,7 +657,6 @@
 				F9C802E768DEEFFF8387315F042E8B0D /* Core */,
 				599D7A03CBDA4174D63F25DB4554B60E /* Support Files */,
 			);
-			name = SDWebImage;
 			path = SDWebImage;
 			sourceTree = "<group>";
 		};
@@ -818,7 +816,7 @@
 			);
 			name = "Pods-WTF App";
 			productName = Pods_WTF_App;
-			productReference = FED23F765C57DC8024941C1A17ED5AD1 /* Pods-WTF App */;
+			productReference = FED23F765C57DC8024941C1A17ED5AD1 /* Pods_WTF_App.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */

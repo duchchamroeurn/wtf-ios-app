@@ -603,7 +603,6 @@
 				AB74099128F6C0F300C2643C /* Sources */,
 				AB74099228F6C0F300C2643C /* Frameworks */,
 				AB74099328F6C0F300C2643C /* Resources */,
-				08497FD6E264BA6915580ACB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -680,23 +679,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		08497FD6E264BA6915580ACB /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WTF App/Pods-WTF App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WTF App/Pods-WTF App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WTF App/Pods-WTF App-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		9AAA902E78E023956FC63CE4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
