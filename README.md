@@ -11,3 +11,13 @@ WTF is simple application about grocery shopping that has following features:
 1. Clone Respository ```git clone https://github.com/duchchamroeurn/wtf-ios-app.git```
 2. Run ```pod install```
 3. Done
+
+## Features Screenshots
+<img src="/WTF%20App/Resource/Image/Screenshot/Login.png" width="390" height="884">
+<img src="/WTF%20App/Resource/Image/Screenshot/Register.png" width="390" height="884">
+<img src="/WTF%20App/Resource/Image/Screenshot/Home.png" width="390" height="884">
+<img src="/WTF%20App/Resource/Image/Screenshot/MenuDetail.png" width="390" height="884">
+<img src="/WTF%20App/Resource/Image/Screenshot/ListOrder.png" width="390" height="884">
+<img src="/WTF%20App/Resource/Image/Screenshot/OrderDetail.png" width="390" height="884">
+<img src="/WTF%20App/Resource/Image/Screenshot/Profile.png" width="390" height="884">
+<img src="/WTF%20App/Resource/Image/Screenshot/Cart.png" width="390" height="884">
