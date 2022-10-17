@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Loading View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="LoadingViewController" id="Y6W-OH-hqX" customClass="LoadingViewController" customModule="WTF_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Msf-8U-vqW">
+                                <rect key="frame" x="170" y="397" width="50" height="50"/>
+                                <subviews>
+                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="LLB-Yp-tLM">
+                                        <rect key="frame" x="15" y="15" width="20" height="20"/>
+                                    </activityIndicatorView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="aKE-vd-Cd4"/>
+                                    <constraint firstItem="LLB-Yp-tLM" firstAttribute="centerY" secondItem="Msf-8U-vqW" secondAttribute="centerY" id="jcC-mc-Czy"/>
+                                    <constraint firstAttribute="height" constant="50" id="now-ZT-jOp"/>
+                                    <constraint firstItem="LLB-Yp-tLM" firstAttribute="centerX" secondItem="Msf-8U-vqW" secondAttribute="centerX" id="sgg-3q-AKT"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" white="0.5" alpha="0.51189963233391966" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Msf-8U-vqW" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="YFr-cy-BrP"/>
+                            <constraint firstItem="Msf-8U-vqW" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="bz7-BD-Hom"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="boxView" destination="Msf-8U-vqW" id="oKb-P6-5Mg"/>
+                        <outlet property="loadingView" destination="LLB-Yp-tLM" id="qzt-GB-cOl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="15" y="0.0"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
