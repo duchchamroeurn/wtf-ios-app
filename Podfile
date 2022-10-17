@@ -6,7 +6,7 @@ target 'WTF App' do
   use_frameworks!
 
   # Pods for WTF App
-#pod 'SDWebImage', '~> 5.0'
-#pod 'ReachabilitySwift'
+pod 'SDWebImage', '~> 5.0'
+pod 'ReachabilitySwift'
 
 end
